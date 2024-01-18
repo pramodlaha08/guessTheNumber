@@ -5,7 +5,7 @@ let diff;
 let confirmUser;
 
 do {
-  userNum = prompt("Enter your number: ", `"${userNum}"`);
+  userNum = prompt("Enter your number: ", `${userNum}`);
   userNum = Number.parseInt(userNum);
   diff = userNum - rand;
   if (diff === 0) {
